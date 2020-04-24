@@ -1,0 +1,32 @@
+
+
+body{
+    height:900px;
+}
+
+.container{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(243, 243, 243);
+    border: black 1px solid;
+    width:900px;
+    height:900px;
+}
+
+#target{
+    position: absolute;
+    width: 70px;
+    height:70px;
+    border-radius: 100%;
+    border: rgb(31, 184, 0) 2px solid;
+    background-color: rgb(36, 255, 36);
+    outline: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#target:hover{
+    cursor: pointer;
+}
