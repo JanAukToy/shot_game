@@ -9,5 +9,8 @@ function move() {
 
     let target = document.getElementById("target");
     target.style.top = x+"%";
-    target.style.left = y+"%";
+    target.style.left = y + "%";
+    
+    document.getElementById('sound-file').play();
+    document.getElementById( 'sound-file' ).currentTime = 0 ;
 }
