@@ -26,7 +26,7 @@ let finish = function () {
 function move() {
 
     if (count == 0) {
-        setTimeout(finish, 2000);
+        setTimeout(finish, 15000);
     }
     
     let x = Math.floor( Math.random() * (max + 1 - min) ) + min ;
