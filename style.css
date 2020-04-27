@@ -51,8 +51,14 @@ body{
     position: absolute;
     font-size: 50px;
     left: 47%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .text{
     text-align: center;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
